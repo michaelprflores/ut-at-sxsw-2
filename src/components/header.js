@@ -4,15 +4,21 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => {
   return (
-    <nav className="flex justify-between flex-wrap p-4">
+    <>
+      {/*<nav className="flex justify-between flex-wrap p-4">
       <div class="flex flex-shrink-0 text-white mr-6">
         <Link to="/">
           <div className="max-w-[250px]">
-            <StaticImage src="../images/ut-brand-primary.svg" alt={siteTitle} />
+            <StaticImage
+              src="../images/ut-brand-primary.svg"
+              alt={siteTitle}
+              placeholder="none"
+            />
           </div>
         </Link>
       </div>
-    </nav>
+  </nav>*/}
+    </>
   )
 }
 

@@ -13,7 +13,7 @@ const IndexPage = () => (
     </div>
     <div className="hidden md:block overflow-hidden w-full relative pt-[56.25%]">
       <iframe
-        class="w-full h-full absolute top-0 left-0 right-0 bottom-0"
+        className="w-full h-full absolute top-0 left-0 right-0 bottom-0"
         title="Intro"
         width="1920"
         height="1080"
