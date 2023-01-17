@@ -13,16 +13,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 function Footer({ siteTitle }) {
   return (
     <>
-      <div className="w-full max-w-screen-xl px-4 mx-auto grid md:grid-cols-2 md:gap-x-3 items-stretch pt-6 pb-4">
+      <div className="w-full max-w-screen-xl px-4 mx-auto grid md:grid-cols-2 md:gap-x-3 pt-6 pb-4">
         <div class="mx-auto md:mx-0 pb-5 md:pb-0">
           <Link to="/">
-            <div className="max-w-[250px]">
-              <StaticImage
-                src="../images/ut-brand-primary.svg"
-                alt={siteTitle}
-                placeholder="none"
-              />
-            </div>
+            <StaticImage
+              src="../images/ut-brand-primary.svg"
+              alt={siteTitle}
+              placeholder="none"
+              className="max-w-[250px]"
+            />
           </Link>
         </div>
         <div class="grid xl:grid-cols-2 xl:gap-x-3 mx-auto md:mx-0">
