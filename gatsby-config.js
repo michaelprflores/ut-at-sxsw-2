@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `University of TEXAS at SXSW`,
+    description: `Experience Spring Fest ATX as a Longhorn. Check out the various sessions presented by our outstanding students, faculty and alumni to discover how we are changing the world.`,
+    author: `UT UMAC`,
+    siteUrl: `https://sxsw.utexas.edu`,
   },
   plugins: [
     "gatsby-plugin-postcss",
