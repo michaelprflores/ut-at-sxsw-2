@@ -7,22 +7,29 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@splinetool/react-spline": "^2.2.5",
+    "@splinetool/runtime": "^0.9.187",
     "gatsby": "^5.4.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^3.4.0",
     "gatsby-plugin-manifest": "^5.4.0",
     "gatsby-plugin-postcss": "^6.4.0",
+    "gatsby-plugin-react-helmet": "^6.4.0",
     "gatsby-plugin-sharp": "^5.4.0",
     "gatsby-source-filesystem": "^5.4.0",
     "gatsby-transformer-sharp": "^5.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
+    "react-helmet": "^6.1.0",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.2.4",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.1",
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
   },
   "keywords": [
     "gatsby"
@@ -35,7 +42,11 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "start-react": "react-scripts start",
+    "build-react": "react-scripts build",
+    "test-react": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",

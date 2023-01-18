@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: `https://sxsw.utexas.edu`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     "gatsby-plugin-postcss",
     `gatsby-plugin-image`,
     {

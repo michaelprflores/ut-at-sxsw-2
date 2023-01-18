@@ -1,5 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import Spline from "@splinetool/react-spline"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,18 +8,13 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <div className="block md:hidden">
-      <div className="">
-        <StaticImage src="../images/discover-texas.png" alt="UT SXSW" />
-      </div>
+      <StaticImage src="../images/discover-texas.png" alt="UT SXSW" />
     </div>
-    <div className="hidden md:block overflow-hidden w-full relative pt-[56.25%]">
-      <iframe
-        className="w-full h-full absolute top-0 left-0 right-0 bottom-0"
-        title="Intro"
-        width="1920"
-        height="1080"
-        src="https://my.spline.design/untitled-6709c686713d68944592ef2b3e953908/"
-      ></iframe>
+    <div className="hidden md:block pt-[10%] xl:pt-[5%]">
+      <Spline
+        className="md:!h-[80vw] lg:!h-[60vw] xl:!h-[50vw]"
+        scene="https://prod.spline.design/eh4TRGCbw1YpdzxE/scene.splinecode"
+      />
     </div>
   </Layout>
 )
