@@ -18,6 +18,9 @@ module.exports = {
       "limestone-light": "#f2f1ed",
       gray: "#F4F6F7",
     },
+    fontFamily: {
+      display: ['"Libre Franklin"', "sans-serif"],
+    },
   },
   plugins: [],
 }

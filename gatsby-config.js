@@ -37,6 +37,13 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/utexas-logo.png`,
       },
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Libre Franklin\:300,300i,500,500i,700,700i`,
+        ],
+        display: "swap",
+      },
     },
   ],
 }
