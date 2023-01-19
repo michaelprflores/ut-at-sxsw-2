@@ -8,12 +8,14 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <div className="block md:hidden">
-      <StaticImage
-        className="grid content-center"
-        src="../images/discover-texas-mobile.svg"
-        alt="UT at SXSW"
-        placeholder="none"
-      />
+      <div className="grid justify-center mt-16">
+        <StaticImage
+          className="max-w-xs"
+          src="../images/discover-texas-mobile.svg"
+          alt="UT at SXSW"
+          placeholder="none"
+        />
+      </div>
       <div className="font-display font-bold text-white text-center text-2xl m-9">
         <p>UT at SXSW</p>
         <p>March 11, 2023</p>
@@ -21,7 +23,7 @@ const IndexPage = () => (
         <p>Details coming soon</p>
       </div>
     </div>
-    <div className="hidden md:block pt-[10%] xl:pt-[5%]">
+    <div className="hidden md:block">
       <Spline
         placeholder="none"
         className="md:!h-[80vw] lg:!h-[60vw] xl:!h-[50vw]"
