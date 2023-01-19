@@ -10,9 +10,9 @@
 module.exports = {
   siteMetadata: {
     title: `University of TEXAS at SXSW`,
-    description: `Experience Spring Fest ATX as a Longhorn. Check out the various sessions presented by our outstanding students, faculty and alumni to discover how we are changing the world.`,
+    description: `Experience SXSW as a Longhorn. Check out the various sessions presented by our outstanding students, faculty and alumni to discover how we are changing the world.`,
     author: `UT UMAC`,
-    siteUrl: `https://sxsw.utexas.edu`,
+    siteUrl: `https://utatsxsw.utexas.edu`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
