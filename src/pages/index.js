@@ -9,10 +9,17 @@ const IndexPage = () => (
   <Layout>
     <div className="block md:hidden">
       <StaticImage
-        src="../images/discover-texas.png"
-        alt="UT SXSW"
+        className="grid content-center"
+        src="../images/discover-texas-mobile.svg"
+        alt="UT at SXSW"
         placeholder="none"
       />
+      <div className="font-display font-bold text-white text-center text-2xl m-9">
+        <p>UT at SXSW</p>
+        <p>March 11, 2023</p>
+        <p>Banger's</p>
+        <p>Details coming soon</p>
+      </div>
     </div>
     <div className="hidden md:block pt-[10%] xl:pt-[5%]">
       <Spline
