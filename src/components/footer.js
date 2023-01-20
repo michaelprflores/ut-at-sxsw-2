@@ -13,8 +13,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 function Footer({ siteTitle }) {
   return (
     <>
-      <div className="w-full max-w-screen-xl px-4 mx-auto grid md:grid-cols-2 md:gap-x-3 pt-6 pb-4 font-display">
-        <div class="mx-auto md:mx-0 pb-5 md:pb-0">
+      <div className="w-full max-w-screen-xl px-4 mx-auto grid md:grid-cols-2 md:gap-x-3 font-display">
+        <div class="mx-auto md:mx-0 md:pb-0">
           <Link to="/">
             <StaticImage
               src="../images/ut-brand-primary.svg"
@@ -24,65 +24,66 @@ function Footer({ siteTitle }) {
             />
           </Link>
         </div>
-        <div class="grid xl:grid-cols-2 xl:gap-x-3 mx-auto md:mx-0">
-          <div className="flex flex-shrink-0">
-            <div className="text-white text-center md:text-left mx-auto md:mx-0">
-              <p>Main Building (MAI)</p>
+
+        <div className="">
+          <div className="">
+            <div className="">
+              <p>Main Building &#40;MAI&#41;</p>
               <p>110 Inner Campus Drive</p>
               <p>Austin, TX 78705</p>
-              <p>
-                <a href="mailto:utsxsw@utexas.edu">utsxsw@utexas.edu</a>
-              </p>
+              <a href="mailto:utsxsw@utexas.edu" className="underline">
+                utsxsw@utexas.edu
+              </a>
             </div>
           </div>
-          <div className="flex flex-shrink-0 pt-5 xl:pt-0">
-            <ul className="social-sharing">
-              <li className="fill-black inline px-3">
+          <div className="">
+            <ul className="">
+              <li className="">
                 <a href="https://www.facebook.com/UTAustinTX">
                   <span className="sr-only">UT Austin on Facebook</span>
                   <FontAwesomeIcon
                     icon={faSquareFacebook}
-                    className="icon-class hover:text-charcoal transition-all duration-300"
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
                     size="2x"
                   />
                 </a>
               </li>
-              <li className="inline px-3">
+              <li className="">
                 <a href="https://twitter.com/UTAustin">
                   <span className="sr-only">UT Austin on Twitter</span>
                   <FontAwesomeIcon
                     icon={faTwitter}
-                    className="icon-class hover:text-charcoal transition-all duration-300"
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
                     size="2x"
                   />
                 </a>
               </li>
-              <li className="inline px-3">
+              <li className="">
                 <a href="http://instagram.com/UTAustinTX">
                   <span className="sr-only">UT Austin on Instagram</span>
                   <FontAwesomeIcon
                     icon={faInstagram}
-                    className="icon-class hover:text-charcoal transition-all duration-300"
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
                     size="2x"
                   />
                 </a>
               </li>
-              <li className="inline px-3">
+              <li className="">
                 <a href="https://www.linkedin.com/edu/the-university-of-texas-at-austin-19518">
                   <span className="sr-only">UT Austin on LinkedIn</span>
                   <FontAwesomeIcon
                     icon={faLinkedin}
-                    className="icon-class hover:text-charcoal transition-all duration-300"
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
                     size="2x"
                   />
                 </a>
               </li>
-              <li className="inline px-3">
+              <li className="">
                 <a href="https://www.youtube.com/channel/UCCLiPoSjzG1PVWyRtq0G3Fw">
                   <span className="sr-only">UT Austin on YouTube</span>
                   <FontAwesomeIcon
                     icon={faYoutube}
-                    className="icon-class hover:text-charcoal transition-all duration-300"
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
                     size="2x"
                   />
                 </a>
@@ -92,8 +93,8 @@ function Footer({ siteTitle }) {
         </div>
       </div>
 
-      <footer class="w-full max-w-screen-xl md:mx-auto px-4 md:flex md:justify-between pt-6 pb-4 font-display">
-        <span class="text-sm text-white mt-3 sm:text-center">
+      <footer class="font-display">
+        <span class="">
           ©{" "}
           <a href="https://www.utexas.edu" class="underline">
             The University of Texas at Austin
@@ -101,17 +102,17 @@ function Footer({ siteTitle }) {
           {new Date().getFullYear()}
         </span>
         <ul class="flex flex-wrap items-center mt-3 text-sm">
-          <li className="px-2">
+          <li className="">
             <a href="https://www.utexas.edu/emergency" class="underline">
               Emergency Information
             </a>
           </li>
-          <li className="border-l border-white inline px-2">
+          <li className="">
             <a href="https://www.utexas.edu/site-policies" class="underline">
               Site Policies
             </a>
           </li>
-          <li className="border-l border-white inline px-2">
+          <li className="">
             <a
               href="https://it.utexas.edu/policies/web-accessibility"
               class="underline"
@@ -119,7 +120,7 @@ function Footer({ siteTitle }) {
               Web Accessibility Policy
             </a>
           </li>
-          <li className="border-l border-white inline px-2">
+          <li className="">
             <a
               href="https://it.utexas.edu/policies/web-privacy"
               class="underline"
