@@ -10,16 +10,3 @@
 exports.onRenderBody = ({ setHtmlAttributes }) => {
   setHtmlAttributes({ lang: `en` })
 }
-
-export const onRenderBody = ({ setHeadComponents }) => {
-  setHeadComponents([
-    <link
-      rel="preload"
-      href="/fonts/1883Sans-Medium.woff2"
-      as="font"
-      type="font/woff2"
-      crossOrigin="anonymous"
-      key="1883Font"
-    />,
-  ])
-}
