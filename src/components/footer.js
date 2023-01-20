@@ -26,7 +26,7 @@ function Footer({ siteTitle }) {
             </Link>
           </div>
 
-          <div className="text-center md:m-9 md:flex md:justify-start md:grid md:grid-cols-2">
+          <div className="text-center md:m-9 md:grid md:grid-cols-2 md:justify-start">
             <div className="">
               <p>Main Building &#40;MAI&#41;</p>
               <p>110 Inner Campus Drive</p>
@@ -90,40 +90,42 @@ function Footer({ siteTitle }) {
           </div>
         </div>
 
-        <div className="font-display text-white text-center m-9">
-          <span className="">
-            ©{" "}
-            <a href="https://www.utexas.edu" className="underline">
-              The University of Texas at Austin
-            </a>{" "}
-            {new Date().getFullYear()}
-          </span>
-          <ul className="">
+        <div className="font-display text-white text-center md:grid md:grid-cols-2 mt-9">
+          <div className="m-9 md:text-left">
+            <p>
+              ©{" "}
+              <a href="https://www.utexas.edu" className="underline">
+                The University of Texas at Austin
+              </a>{" "}
+              {new Date().getFullYear()}
+            </p>
+          </div>
+          <ul className="flex flex-col md:flex-row items-center md:justify-evenly">
             <li className="">
               <a href="https://www.utexas.edu/emergency" className="underline">
                 Emergency Information
               </a>
             </li>
-            <li className="border-l border-white inline px-2">
+            <li>
               <a
                 href="https://www.utexas.edu/site-policies"
-                className="underline"
+                className="underline xl:border-l border-white pl-2"
               >
                 Site Policies
               </a>
             </li>
-            <li className="border-l border-white inline px-2">
+            <li>
               <a
                 href="https://it.utexas.edu/policies/web-accessibility"
-                className="underline"
+                className="underline xl:border-l border-white pl-2"
               >
                 Web Accessibility Policy
               </a>
             </li>
-            <li className="border-l border-white inline px-2">
+            <li>
               <a
                 href="https://it.utexas.edu/policies/web-privacy"
-                className="underline"
+                className="underline xl:border-l border-white pl-2"
               >
                 Web Privacy Policy
               </a>
