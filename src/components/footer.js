@@ -25,7 +25,7 @@ function Footer({ siteTitle }) {
           </Link>
         </div>
 
-        <div className="text-center md:m-9 md:flex md:justify-start">
+        <div className="text-center md:m-9 md:flex md:justify-start md:grid md:grid-cols-2">
           <div className="">
             <div className="">
               <p>Main Building &#40;MAI&#41;</p>
@@ -36,60 +36,58 @@ function Footer({ siteTitle }) {
               </a>
             </div>
           </div>
-          <div className="">
-            <ul className="">
-              <li className="">
-                <a href="https://www.facebook.com/UTAustinTX">
-                  <span className="sr-only">UT Austin on Facebook</span>
-                  <FontAwesomeIcon
-                    icon={faSquareFacebook}
-                    className="icon-class hover:text-tangerineorange transition-all duration-300"
-                    size="2x"
-                  />
-                </a>
-              </li>
-              <li className="">
-                <a href="https://twitter.com/UTAustin">
-                  <span className="sr-only">UT Austin on Twitter</span>
-                  <FontAwesomeIcon
-                    icon={faTwitter}
-                    className="icon-class hover:text-tangerineorange transition-all duration-300"
-                    size="2x"
-                  />
-                </a>
-              </li>
-              <li className="">
-                <a href="http://instagram.com/UTAustinTX">
-                  <span className="sr-only">UT Austin on Instagram</span>
-                  <FontAwesomeIcon
-                    icon={faInstagram}
-                    className="icon-class hover:text-tangerineorange transition-all duration-300"
-                    size="2x"
-                  />
-                </a>
-              </li>
-              <li className="">
-                <a href="https://www.linkedin.com/edu/the-university-of-texas-at-austin-19518">
-                  <span className="sr-only">UT Austin on LinkedIn</span>
-                  <FontAwesomeIcon
-                    icon={faLinkedin}
-                    className="icon-class hover:text-tangerineorange transition-all duration-300"
-                    size="2x"
-                  />
-                </a>
-              </li>
-              <li className="">
-                <a href="https://www.youtube.com/channel/UCCLiPoSjzG1PVWyRtq0G3Fw">
-                  <span className="sr-only">UT Austin on YouTube</span>
-                  <FontAwesomeIcon
-                    icon={faYoutube}
-                    className="icon-class hover:text-tangerineorange transition-all duration-300"
-                    size="2x"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ul className="flex justify-evenly m-9 md:m-0">
+            <li className="">
+              <a href="https://www.facebook.com/UTAustinTX">
+                <span className="sr-only">UT Austin on Facebook</span>
+                <FontAwesomeIcon
+                  icon={faSquareFacebook}
+                  className="icon-class hover:text-tangerineorange transition-all duration-300"
+                  size="2x"
+                />
+              </a>
+            </li>
+            <li className="">
+              <a href="https://twitter.com/UTAustin">
+                <span className="sr-only">UT Austin on Twitter</span>
+                <FontAwesomeIcon
+                  icon={faTwitter}
+                  className="icon-class hover:text-tangerineorange transition-all duration-300"
+                  size="2x"
+                />
+              </a>
+            </li>
+            <li className="">
+              <a href="http://instagram.com/UTAustinTX">
+                <span className="sr-only">UT Austin on Instagram</span>
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="icon-class hover:text-tangerineorange transition-all duration-300"
+                  size="2x"
+                />
+              </a>
+            </li>
+            <li className="">
+              <a href="https://www.linkedin.com/edu/the-university-of-texas-at-austin-19518">
+                <span className="sr-only">UT Austin on LinkedIn</span>
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="icon-class hover:text-tangerineorange transition-all duration-300"
+                  size="2x"
+                />
+              </a>
+            </li>
+            <li className="">
+              <a href="https://www.youtube.com/channel/UCCLiPoSjzG1PVWyRtq0G3Fw">
+                <span className="sr-only">UT Austin on YouTube</span>
+                <FontAwesomeIcon
+                  icon={faYoutube}
+                  className="icon-class hover:text-tangerineorange transition-all duration-300"
+                  size="2x"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
 
