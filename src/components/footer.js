@@ -13,8 +13,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 function Footer({ siteTitle }) {
   return (
     <>
-      <footer className="max-w-screen-xl m-0 mx-auto">
-        <div className="font-display text-white md:grid md:grid-cols-2">
+      <footer className="max-w-screen-xl m-0 mx-auto font-eighteeneightythree text-white">
+        <div className="md:grid md:grid-cols-2">
           <div className="m-9 flex justify-center md:justify-start">
             <Link to="/">
               <StaticImage
@@ -90,7 +90,7 @@ function Footer({ siteTitle }) {
           </div>
         </div>
 
-        <div className="font-display text-white text-center md:grid md:grid-cols-2 mt-9">
+        <div className="text-center md:grid md:grid-cols-2 mt-9">
           <div className="m-9 md:text-left">
             <p>
               ©{" "}

@@ -21,6 +21,7 @@ module.exports = {
     },
     fontFamily: {
       display: ['"Libre Franklin"', "sans-serif"],
+      eighteeneightythree: ['"1883 Sans"', "sans-serif"]
     },
   },
   plugins: [],

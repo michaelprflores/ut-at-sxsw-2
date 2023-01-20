@@ -24,3 +24,8 @@ a:hover {
 
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "1883 Sans";
+  src: url("/fonts/1883Sans-Medium.woff2");
+}
