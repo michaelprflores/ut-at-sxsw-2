@@ -13,20 +13,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 function Footer({ siteTitle }) {
   return (
     <>
-      <div className="max-w-screen-xl font-display text-white md:grid md:grid-cols-2">
-        <div className="m-9 flex justify-center md:justify-start">
-          <Link to="/">
-            <StaticImage
-              src="../images/ut-brand-primary.svg"
-              alt={siteTitle}
-              placeholder="none"
-              className="max-w-[250px]"
-            />
-          </Link>
-        </div>
+      <footer className="max-w-screen-xl m-0 mx-auto">
+        <div className="font-display text-white md:grid md:grid-cols-2">
+          <div className="m-9 flex justify-center md:justify-start">
+            <Link to="/">
+              <StaticImage
+                src="../images/ut-brand-primary.svg"
+                alt={siteTitle}
+                placeholder="none"
+                className="max-w-[250px]"
+              />
+            </Link>
+          </div>
 
-        <div className="text-center md:m-9 md:flex md:justify-start md:grid md:grid-cols-2">
-          <div className="">
+          <div className="text-center md:m-9 md:flex md:justify-start md:grid md:grid-cols-2">
             <div className="">
               <p>Main Building &#40;MAI&#41;</p>
               <p>110 Inner Campus Drive</p>
@@ -35,101 +35,101 @@ function Footer({ siteTitle }) {
                 utsxsw@utexas.edu
               </a>
             </div>
+            <ul className="flex justify-evenly m-9 md:m-0">
+              <li className="">
+                <a href="https://www.facebook.com/UTAustinTX">
+                  <span className="sr-only">UT Austin on Facebook</span>
+                  <FontAwesomeIcon
+                    icon={faSquareFacebook}
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
+                    size="2x"
+                  />
+                </a>
+              </li>
+              <li className="">
+                <a href="https://twitter.com/UTAustin">
+                  <span className="sr-only">UT Austin on Twitter</span>
+                  <FontAwesomeIcon
+                    icon={faTwitter}
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
+                    size="2x"
+                  />
+                </a>
+              </li>
+              <li className="">
+                <a href="http://instagram.com/UTAustinTX">
+                  <span className="sr-only">UT Austin on Instagram</span>
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
+                    size="2x"
+                  />
+                </a>
+              </li>
+              <li className="">
+                <a href="https://www.linkedin.com/edu/the-university-of-texas-at-austin-19518">
+                  <span className="sr-only">UT Austin on LinkedIn</span>
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
+                    size="2x"
+                  />
+                </a>
+              </li>
+              <li className="">
+                <a href="https://www.youtube.com/channel/UCCLiPoSjzG1PVWyRtq0G3Fw">
+                  <span className="sr-only">UT Austin on YouTube</span>
+                  <FontAwesomeIcon
+                    icon={faYoutube}
+                    className="icon-class hover:text-tangerineorange transition-all duration-300"
+                    size="2x"
+                  />
+                </a>
+              </li>
+            </ul>
           </div>
-          <ul className="flex justify-evenly m-9 md:m-0">
+        </div>
+
+        <div className="font-display text-white text-center m-9">
+          <span className="">
+            ©{" "}
+            <a href="https://www.utexas.edu" className="underline">
+              The University of Texas at Austin
+            </a>{" "}
+            {new Date().getFullYear()}
+          </span>
+          <ul className="">
             <li className="">
-              <a href="https://www.facebook.com/UTAustinTX">
-                <span className="sr-only">UT Austin on Facebook</span>
-                <FontAwesomeIcon
-                  icon={faSquareFacebook}
-                  className="icon-class hover:text-tangerineorange transition-all duration-300"
-                  size="2x"
-                />
+              <a href="https://www.utexas.edu/emergency" className="underline">
+                Emergency Information
               </a>
             </li>
-            <li className="">
-              <a href="https://twitter.com/UTAustin">
-                <span className="sr-only">UT Austin on Twitter</span>
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  className="icon-class hover:text-tangerineorange transition-all duration-300"
-                  size="2x"
-                />
+            <li className="border-l border-white inline px-2">
+              <a
+                href="https://www.utexas.edu/site-policies"
+                className="underline"
+              >
+                Site Policies
               </a>
             </li>
-            <li className="">
-              <a href="http://instagram.com/UTAustinTX">
-                <span className="sr-only">UT Austin on Instagram</span>
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className="icon-class hover:text-tangerineorange transition-all duration-300"
-                  size="2x"
-                />
+            <li className="border-l border-white inline px-2">
+              <a
+                href="https://it.utexas.edu/policies/web-accessibility"
+                className="underline"
+              >
+                Web Accessibility Policy
               </a>
             </li>
-            <li className="">
-              <a href="https://www.linkedin.com/edu/the-university-of-texas-at-austin-19518">
-                <span className="sr-only">UT Austin on LinkedIn</span>
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  className="icon-class hover:text-tangerineorange transition-all duration-300"
-                  size="2x"
-                />
-              </a>
-            </li>
-            <li className="">
-              <a href="https://www.youtube.com/channel/UCCLiPoSjzG1PVWyRtq0G3Fw">
-                <span className="sr-only">UT Austin on YouTube</span>
-                <FontAwesomeIcon
-                  icon={faYoutube}
-                  className="icon-class hover:text-tangerineorange transition-all duration-300"
-                  size="2x"
-                />
+            <li className="border-l border-white inline px-2">
+              <a
+                href="https://it.utexas.edu/policies/web-privacy"
+                className="underline"
+              >
+                Web Privacy Policy
               </a>
             </li>
           </ul>
         </div>
-      </div>
-
-      <footer className="font-display text-white text-center m-9">
-        <span className="">
-          ©{" "}
-          <a href="https://www.utexas.edu" className="underline">
-            The University of Texas at Austin
-          </a>{" "}
-          {new Date().getFullYear()}
-        </span>
-        <ul className="">
-          <li className="">
-            <a href="https://www.utexas.edu/emergency" className="underline">
-              Emergency Information
-            </a>
-          </li>
-          <li className="border-l border-white inline px-2">
-            <a
-              href="https://www.utexas.edu/site-policies"
-              className="underline"
-            >
-              Site Policies
-            </a>
-          </li>
-          <li className="border-l border-white inline px-2">
-            <a
-              href="https://it.utexas.edu/policies/web-accessibility"
-              className="underline"
-            >
-              Web Accessibility Policy
-            </a>
-          </li>
-          <li className="border-l border-white inline px-2">
-            <a
-              href="https://it.utexas.edu/policies/web-privacy"
-              className="underline"
-            >
-              Web Privacy Policy
-            </a>
-          </li>
-        </ul>
       </footer>
     </>
   )
