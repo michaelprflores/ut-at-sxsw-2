@@ -13,8 +13,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 function Footer({ siteTitle }) {
   return (
     <>
-      <div className="w-full max-w-screen-xl px-4 mx-auto grid md:grid-cols-2 md:gap-x-3 font-display">
-        <div class="mx-auto md:mx-0 md:pb-0">
+      <div className="max-w-screen-xl font-display text-white md:grid md:grid-cols-2">
+        <div className="m-9 flex justify-center md:justify-start">
           <Link to="/">
             <StaticImage
               src="../images/ut-brand-primary.svg"
@@ -25,7 +25,7 @@ function Footer({ siteTitle }) {
           </Link>
         </div>
 
-        <div className="">
+        <div className="text-center md:m-9 md:flex md:justify-start">
           <div className="">
             <div className="">
               <p>Main Building &#40;MAI&#41;</p>
@@ -93,37 +93,40 @@ function Footer({ siteTitle }) {
         </div>
       </div>
 
-      <footer class="font-display">
-        <span class="">
+      <footer className="font-display text-white text-center m-9">
+        <span className="">
           ©{" "}
-          <a href="https://www.utexas.edu" class="underline">
+          <a href="https://www.utexas.edu" className="underline">
             The University of Texas at Austin
           </a>{" "}
           {new Date().getFullYear()}
         </span>
-        <ul class="flex flex-wrap items-center mt-3 text-sm">
+        <ul className="">
           <li className="">
-            <a href="https://www.utexas.edu/emergency" class="underline">
+            <a href="https://www.utexas.edu/emergency" className="underline">
               Emergency Information
             </a>
           </li>
-          <li className="">
-            <a href="https://www.utexas.edu/site-policies" class="underline">
+          <li className="border-l border-white inline px-2">
+            <a
+              href="https://www.utexas.edu/site-policies"
+              className="underline"
+            >
               Site Policies
             </a>
           </li>
-          <li className="">
+          <li className="border-l border-white inline px-2">
             <a
               href="https://it.utexas.edu/policies/web-accessibility"
-              class="underline"
+              className="underline"
             >
               Web Accessibility Policy
             </a>
           </li>
-          <li className="">
+          <li className="border-l border-white inline px-2">
             <a
               href="https://it.utexas.edu/policies/web-privacy"
-              class="underline"
+              className="underline"
             >
               Web Privacy Policy
             </a>
