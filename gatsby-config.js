@@ -16,8 +16,9 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    "gatsby-plugin-postcss",
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -39,9 +40,7 @@ module.exports = {
       },
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Libre Franklin\:300,300i,500,500i,700,700i`,
-        ],
+        fonts: [`Libre Franklin\:300,300i,500,500i,700,700i`],
         display: "swap",
       },
     },
