@@ -31,7 +31,7 @@ function Footer({ siteTitle }) {
               <p>Main Building &#40;MAI&#41;</p>
               <p>110 Inner Campus Drive</p>
               <p>Austin, TX 78705</p>
-              <a href="mailto:utsxsw@utexas.edu" className="underline">
+              <a href="mailto:utsxsw@utexas.edu" className="hover:underline">
                 utsxsw@utexas.edu
               </a>
             </div>
