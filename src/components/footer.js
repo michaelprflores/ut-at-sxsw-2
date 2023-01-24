@@ -94,7 +94,7 @@ function Footer({ siteTitle }) {
           <div className="m-9 md:text-left">
             <p>
               ©{" "}
-              <a href="https://www.utexas.edu" className="underline">
+              <a href="https://www.utexas.edu" className="hover:underline">
                 The University of Texas at Austin
               </a>{" "}
               {new Date().getFullYear()}
@@ -102,14 +102,17 @@ function Footer({ siteTitle }) {
           </div>
           <ul className="flex flex-col md:flex-row items-center md:justify-evenly">
             <li className="">
-              <a href="https://www.utexas.edu/emergency" className="underline">
+              <a
+                href="https://www.utexas.edu/emergency"
+                className="hover:underline"
+              >
                 Emergency Information
               </a>
             </li>
             <li>
               <a
                 href="https://www.utexas.edu/site-policies"
-                className="underline xl:border-l border-white pl-2"
+                className="hover:underline xl:border-l border-white pl-2"
               >
                 Site Policies
               </a>
@@ -117,7 +120,7 @@ function Footer({ siteTitle }) {
             <li>
               <a
                 href="https://it.utexas.edu/policies/web-accessibility"
-                className="underline xl:border-l border-white pl-2"
+                className="hover:underline xl:border-l border-white pl-2"
               >
                 Web Accessibility Policy
               </a>
@@ -125,7 +128,7 @@ function Footer({ siteTitle }) {
             <li>
               <a
                 href="https://it.utexas.edu/policies/web-privacy"
-                className="underline xl:border-l border-white pl-2"
+                className="hover:underline xl:border-l border-white pl-2"
               >
                 Web Privacy Policy
               </a>
